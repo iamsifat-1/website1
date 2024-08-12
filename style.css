@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     background-color:#1A1244;
     padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
 
 }
 nav ul{
@@ -32,4 +33,38 @@ nav ul li a:hover{
 nav div{
     color: white;
     font-size: 25px;
+}
+header{
+    background-image: url(search.png);
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.searcharea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searcharea input{
+    padding: 8px 45px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    border-color: aliceblue;
+}
+.searcharea input:hover{
+    border-color: yellow;
+}
+.searcharea div{
+    margin-left: -35px;
+}
+.searcharea i{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
 }
