@@ -35,7 +35,7 @@ nav div{
     font-size: 25px;
 }
 header{
-    background-image: url(search.png);
+    background-image: url(search.jpg);
     padding: 100px 0px;
     background-repeat: no-repeat;
     background-size:cover;
@@ -125,4 +125,31 @@ main{
     opacity: 0.8;
     border-radius: 10px;
     cursor: pointer;
+}
+.m3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.m3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.m3 h3 a{
+    background:rgb(23, 118, 47);
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.m3 h3 a:hover{
+    background-color: rgb(21, 84, 37);
+    transition: 0.5s;
+}
+.m3 .m31 a{
+    margin: 0px 10px;
+    background:rgb(23, 118, 47);
+    padding: 8px ;
+    border-radius: 5px;
+}
+.m3 .m31 a:hover{
+    background-color: rgb(21, 84, 37);
 }
