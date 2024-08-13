@@ -98,3 +98,31 @@ main{
     border: 1px solid gray;
     cursor: pointer;
 }
+.m2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin-top: 20px;
+}
+.mitem{
+    height: 250px;
+    border: 3px solid gray;
+}
+.mitem img{
+    width: 100%;
+    height: 100%;
+}
+.mitem div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+}
+.mitem:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+    border-radius: 10px;
+    cursor: pointer;
+}
