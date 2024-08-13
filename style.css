@@ -68,3 +68,33 @@ header{
     cursor: pointer;
     color: white;
 }
+main{
+    background-color:#2D236A ;
+
+}
+.section1{
+    width: 1100px;
+    margin: 0px auto;
+    padding: 40px 5px;
+}
+.m1{
+    display: flex;
+    justify-content: space-between;
+}
+.m11{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.m12{
+    color: white;
+}
+.m12 span{
+    color: black;
+    background-color: rgb(209, 200, 200);
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
